@@ -1,0 +1,141 @@
+*{ box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #2e2e2e; 
+    color: #FFFFFF;
+}
+
+
+.container {
+    width: 95%; 
+    max-width: 900px; 
+    margin: 0 auto;}
+
+header{
+    background: #2e2e2e;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px 20px ;
+color: #e0dccc;
+}
+
+.nav-links a {
+    color: #e0dccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family:inherit, serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a{
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #CFAF6D;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-icons a{
+    color: #e0dccc;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-icons a:hover{
+    color: #CFAF6D;
+}
+
+.logo img{
+    height: 70px;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.novidades{
+    background: #e0dccc;
+    color: #2e2e2e;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.novidades h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.caixa-nov{
+    background-color: rgba(99, 99, 99, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    width: 280;
+}
+
+.box-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    height: 500px;
+}
+
+.bloco-texto-inicio{
+    max-width: 500px;
+}
+
+.bloco-texto-inicio h2{
+    font-family:"Playfair Display", serif;
+    font-size: 4.5rem;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+
+.imagem-inicio{
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.login{
+justify-content: center;
+align-items: center;
+padding: 50px 350px;
+}
+
+.login h1{
+    white-space: nowrap;
+}
+
+
