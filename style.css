@@ -184,7 +184,7 @@ section{
 /* --- Estilos da Página de Login --- */
 
 .longin-container {
-    background-color: #FFFFFF;
+    background-color: #ffefdb;
     display: flex; 
     justify-content: center; 
     align-items: center;     
@@ -195,6 +195,7 @@ section{
 
 /* Caixa principal do formulário de login */
 .login-box {
+    color: #2e2e2e;
     width: 100%; 
     max-width: 450px; 
     text-align: center; 
@@ -292,7 +293,7 @@ section{
 /* --- Página de Novo Cadastro --- */
 
 .cadastro{
-    background-color: #FFFFFF;
+    background-color: #ffefdb;
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -301,6 +302,7 @@ section{
 }
 
 .cadastro-box{
+    color: #2e2e2e;
     width: 100%; 
     max-width: 450px; 
     text-align: center;

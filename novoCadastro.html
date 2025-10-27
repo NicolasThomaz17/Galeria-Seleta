@@ -34,40 +34,48 @@
     </header>
 
     <main class="cadastro">
-    <div class="cadastro-box">
-        <h1>Crie sua conta</h1>
-        <p>Compre mais rápido e acompanhe seus pedidos em um só lugar!</p>
+        <div class="cadastro-box">
+
+            <h1>Crie sua conta</h1>
+            <p>Compre mais rápido e acompanhe seus pedidos em um só lugar!</p>
         
-        <form class="form" action="#" method="post" autocomplete="on"></form>
+            <form class="form" action="#" method="post" autocomplete="on">
 
-        <div class="nome">
-            <div>
+            <div class="forms-field">
+            
+                <div class = "input-group">
+                <label for ="nome"></label>
                 <input id="nome" name="nome" type="text" placeholder="Nome *" required>
+                </div>
 
-                <div>
+                <div class = "input-group">
+                    <label for="sobrenome"></label>
                     <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome *" required>
                 </div>
-                <div>
+
+                <div class = "input-group">
+                    <label for="cpf"></label>
                     <input type="text" name="cpf" id="cpf" placeholder="CPF (opcional)">
                 </div>
-            </div>
 
-        </div>
+                <div class = "input-group">
+                    <label for = "telefone"></label>
+                    <input id="telefone" name="telefone" type="text" placeholder="Telefone *" required>
+                </div>
 
-        <div>
-            <input type="number" name="telefone" id="telefone" placeholder="Telefone *">
-        </div>
-        <div class="email">
-            <div>
-                <input id="email" name="E-mail" type="text" placeholder="E-mail *" required>
-            </div>
+                <div class = "input-group">
+                    <label for = "email"></label>
+                    <input id="email" name="E-mail" type="text" placeholder="E-mail *" required>
+                </div>
 
-            <div>
-                <input id="senha" name="senha" type="password" minlength="20" placeholder="Senha *" required>
+                <div class = "input-group">
+                    <label for="senha"></label>
+                    <input id="senha" name="senha" type="password" minlength="20" placeholder="Senha *" required>
+                </div>
+
+                    <button type="submit" class="bnt-submit" href = "#">Criar conta</button>
+                </form>
             </div>
-            </div>
-            <a class="btn" href = "#">Criar uma conta</a>
-        </div>
         </main>
 </body>
 </html>
