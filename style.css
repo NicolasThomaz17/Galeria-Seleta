@@ -162,6 +162,15 @@ section{
     height: 150px;
     object-fit: contain; /* Garante que a imagem caiba sem distorcer */
 }
+.btn-vermais{
+    background-color: #d1b48c;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
 
 /* Estiliza o link <a> com classe .btn para parecer um botão */
 .caixa-nov .btn {
@@ -306,4 +315,25 @@ section{
     width: 100%; 
     max-width: 450px; 
     text-align: center;
+}
+
+
+
+.img-sobre{
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-texto{
+    flex: 1;
+    text-align: left;
+    margin-right: 15%;
+}
+
+
+.container-sobre{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
